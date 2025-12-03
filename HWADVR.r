@@ -239,43 +239,7 @@ GSM820521 normal patient: 3
 Error: vector memory limit of 16.0 Gb reached, see mem.maxVSize()
 > 
 > 
-> ###########################################################################
-> # OPTIONAL: TEXT SUMMARY FOR YOUR REPORT
-> ###########################################################################
-> 
-> cat("
-+ Summary of Findings:
-+ 
-+ Using the paired tumor and normal samples, we computed mean expression for each probe in
-+ both groups and derived a log2 fold change. Probes with an absolute log2 fold change greater
-+ than 5 were considered differentially expressed genes (DEGs). When mapped back to their
-+ chromosomal locations, certain chromosomes showed higher counts of DEGs, suggesting that
-+ expression changes are not evenly distributed across the genome.
-+ 
-+ Stratifying DEGs by direction of change showed a clear imbalance between genes that are
-+ higher in Tumor versus those higher in Normal tissue. The bar plot of percentages quantifies
-+ this difference, illustrating the proportion of genes that are upregulated or downregulated in
-+ Tumor samples.
-+ 
-+ The heatmap and clustermap of the full expression matrix demonstrate strong separation of
-+ samples based on their expression profiles. Tumor and Normal samples tend to cluster apart,
-+ indicating distinct global transcriptional programs between the two phenotypes.
-+ ")
-
-Summary of Findings:
-
-Using the paired tumor and normal samples, we computed mean expression for each probe in
-both groups and derived a log2 fold change. Probes with an absolute log2 fold change greater
-than 5 were considered differentially expressed genes (DEGs). When mapped back to their
-chromosomal locations, certain chromosomes showed higher counts of DEGs, suggesting that
-expression changes are not evenly distributed across the genome.
-
-Stratifying DEGs by direction of change showed a clear imbalance between genes that are
-higher in Tumor versus those higher in Normal tissue. The bar plot of percentages quantifies
-this difference, illustrating the proportion of genes that are upregulated or downregulated in
-Tumor samples.
-
-The heatmap and clustermap of the full expression matrix demonstrate strong separation of
 samples based on their expression profiles. Tumor and Normal samples tend to cluster apart,
 indicating distinct global transcriptional programs between the two phenotypes.
 > 
+
